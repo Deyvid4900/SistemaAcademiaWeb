@@ -1,0 +1,43 @@
+/* Preto: #27262C */
+/* cor_base: #474747*/
+/* cinza: #999999 */
+/* azul-primario: #4044ED */
+/* azul-secundario: #93DFFF */
+
+body {
+  background-image: url('../../assets/bg-Register.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #27262c !important;
+}
+h1 {
+  font-family: "Poppins";
+  font-size: 900;
+}
+input {
+  background-color: none !important;
+  border: none !important;
+}
+.box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h1_Login {
+  font-size: 36pt;
+  font-weight: 100;
+}
+.btnEntrar {
+  transform: 1s;
+  background-color: #4044ed !important;
+  border: none !important;
+}
+
+@media (max-width: 768px) {
+  .btnEntrar {
+    background-color: #93dfff !important;
+    color: black !important;
+  }
+}
